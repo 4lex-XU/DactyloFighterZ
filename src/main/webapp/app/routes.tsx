@@ -73,6 +73,7 @@ const AppRoutes = () => {
             </PrivateRoute>
           }
         />
+        <Route path="/game" element={<Game />} />
         <Route path="*" element={<PageNotFound />} />
       </ErrorBoundaryRoutes>
     </div>
